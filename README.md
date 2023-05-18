@@ -4,26 +4,28 @@
 
 React component to handle keyboard events (such as `keyup`, `keydown` & `keypress`).
 
-## Testimonials
-
-> <div>“Happy to see that react-key-handler is SSR safe :+1:”</div>
-> [Veselin Todorov](https://github.com/vesln), Chai.js core
+## Changes for banzai:
+Updated the peer dependency to support react 17 as we have been running this on react 17 for a while now.
+This package will eventually need to be replaced with something different as part of our upgrades.
 
 ## Table of Contents
 
-1. [Installation](#installation)
-2. [Usage](#usage)
-   1. [Higher-order Components](#higher-order-components)
-   2. [Component](#component)
-   3. [Form key handling](#form-key-handling)
-3. [Key event names](#key-event-names)
-4. [`keyValue`, `code` and `keyCode`](#keyvalue-code-and-keycode)
-5. [Development](#development)
-   1. [Setup](#setup)
-   2. [Getting started](#getting-started)
-   3. [Tests](#tests)
-6. [Contributing](#contributing)
-7. [License](#license)
+- [react-key-handler 🔑](#react-key-handler-)
+  - [Changes for banzai:](#changes-for-banzai)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+    - [Higher-order Components](#higher-order-components)
+    - [Component](#component)
+    - [Form key handling](#form-key-handling)
+  - [Key event names](#key-event-names)
+  - [`keyValue`, `code` and `keyCode`](#keyvalue-code-and-keycode)
+  - [Development](#development)
+    - [Setup](#setup)
+    - [Getting started](#getting-started)
+    - [Tests](#tests)
+  - [Contributing](#contributing)
+  - [License](#license)
 
 ## Installation
 
