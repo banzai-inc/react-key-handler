@@ -1,6 +1,6 @@
 {
   "name": "@banzai-inc/react-key-handler",
-  "version": "1.2.0-beta.4",
+  "version": "1.2.0-beta.6",
   "description": "React component to handle keyboard events",
   "homepage": "https://github.com/ayrton/react-key-handler",
   "author": {
@@ -76,12 +76,12 @@
     "sinon": "^6.1.4"
   },
   "peerDependencies": {
-    "react": "^16.2.0-0 || ^17.0.0"
+    "react": "^16.2.0-0 || ^17.0.0 || ^18.0.0"
   },
   "dependencies": {
     "eslint-plugin-flowtype": "^2.50.0",
     "exenv": "^1.2.0",
-    "prop-flo": "^15.6.2"
+    "prop-types": "^15.6.2"
   },
   "volta": {
     "node": "10.24.1"
